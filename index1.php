@@ -1,0 +1,493 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Home | E-Cart</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/price-range.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+
+</head>
+<body>
+
+  <header id="header">
+		<div class="header_top">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="contactinfo">
+							<ul class="nav nav-pills">
+								<li><a href="#"><i class="fa fa-phone"></i> +91 9898989898</a></li>
+								<li><a href="#"><i class="fa fa-envelope"></i> ecart@ymail.com</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="social-icons pull-right">
+							<ul class="nav navbar-nav">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="header-middle">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="logo pull-left">
+							<a href="index1.php">
+							<!--  <h1><span>E</span>-CART</h1>-->
+							<img src="images/home/logo.png" alt="" /></a>
+						</div>
+					</div>
+					<div class="col-sm-8">
+						<div class="shop-menu pull-right">
+							<ul class="nav navbar-nav">
+								<li><a href="index1.php"><i class="fa fa-star"></i> Home</a></li>
+								<li><a href="account.php"><i class="fa fa-user"></i> Account</a></li>
+								<li><a href="contact-us.php"><i class="fa fa-user"></i> Contact-us</a></li>
+								<li><a href="loginind.php"><i class="fa fa-lock"></i> Login</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header><!--/header-->
+
+	<section id="slider"><!--slider-->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div id="slider-carousel" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
+							<li data-target="#slider-carousel" data-slide-to="1"></li>
+							<li data-target="#slider-carousel" data-slide-to="2"></li>
+						</ol>
+
+						<div class="carousel-inner">
+							<div class="item active">
+								<div class="col-sm-6">
+									<h1><span>E</span>-CART</h1>
+									<h2>100 % Satisfaction</h2>
+                  <p>We have thousands of users who have been satisfied after purchasing from our site.</p>
+									<button type="button" class="btn btn-default get">Get it now</button>
+								</div>
+								<div class="col-sm-6">
+									<img src="images/home/girl1.jpg" class="girl img-responsive" alt="" />
+								</div>
+							</div>
+							<div class="item">
+								<div class="col-sm-6">
+									<h1><span>E</span>-CART</h1>
+									<h2>100% Buyback guarantee</h2>
+									<p>We buy defective or damaged products from the customers again or if they are not satisfied with the product.</p>
+									<button type="button" class="btn btn-default get">Get it now</button>
+								</div>
+								<div class="col-sm-6">
+									<img src="images/home/girl2.jpg" class="girl img-responsive" alt="" />
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="col-sm-6">
+									<h1><span>E</span>-CART</h1>
+									<h2>100 % Reliability</h2>
+									<p>We sell authentic and geniune products in our site and we also provide warranty for the purchased products.</p>
+									<button type="button" class="btn btn-default get">Get it now</button>
+								</div>
+								<div class="col-sm-6">
+									<img src="images/home/girl3.jpg" class="girl img-responsive" alt="" />
+								</div>
+							</div>
+						</div>
+
+						<a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">
+							<i class="fa fa-angle-left"></i>
+						</a>
+						<a href="#slider-carousel" class="right control-carousel hidden-xs" data-slide="next">
+							<i class="fa fa-angle-right"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!--/slider-->
+
+	<section>
+		<div class="container">
+			<div class="row">
+			<div class="col-sm-3">
+				<div class="brands_products"><!--brands_products-->
+							<h2>Brands</h2>
+							<div class="brands-name">
+								<ul class="nav nav-pills nav-stacked">
+									<li><a href="apple.php"> <span class="pull-right">(56)</span>Apple</a></li>
+									<li><a href="#"> <span class="pull-right">(27)</span>Samsung</a></li>
+									<li><a href="#"> <span class="pull-right">(32)</span>Microsoft</a></li>
+									<li><a href="#"> <span class="pull-right">(9)</span>Nokia</a></li>
+									<li><a href="#"> <span class="pull-right">(4)</span>Motorola</a></li>
+								</ul>
+							</div>
+				</div><!--/brands_products-->
+			</div>
+			<div class="col-sm-9">
+					<div class="features_items"><!--features_items-->
+						<h2 class="title text-center">Featured Phones</h2>
+						<div class="col-sm-3">
+							<div class="product-image-wrapper">
+								<div class="single-products">
+									<div class="productinfo text-center">
+									<script type="text/javascript">
+										function prodname()
+										{
+										var answer = confirm ("You have added a mobile phone to cart. Click OK to continue .")
+										if (answer)
+										window.location = "cart.php";
+										}
+									</script>
+											<img src="images/home/product1.jpg" alt="" />
+											<h2>Rs.20,000</h2>
+											<p>Samsung Galaxy A8</p>
+											<a href="javascript:prodname();" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+										</div>
+										<div class="product-overlay">
+											<div class="overlay-content">
+												<h2>Rs.20,000</h2>
+												<p>Samsung Galaxy A8</p>
+												<a href="javascript:prodname();" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+											</div>
+										</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="product-image-wrapper">
+								<div class="single-products">
+									<div class="productinfo text-center">
+									<script type="text/javascript">
+										function prodname1()
+										{
+										var answer = confirm ("You have added a mobile phone to cart. Click OK to continue .")
+										if (answer)
+										window.location = "cart1.php";
+										}
+									</script>
+										<img src="images/home/product2.jpg" alt="" />
+										<h2>Rs.10560</h2>
+										<p>Sony C3</p>
+										<a href="javascript:prodname1();" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+									</div>
+									<div class="product-overlay">
+										<div class="overlay-content">
+											<h2>Rs.10560</h2>
+											<p>Sony C3</p>
+											<a href="javascript:prodname1();" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-sm-3">
+							<div class="product-image-wrapper">
+								<div class="single-products">
+									<div class="productinfo text-center">
+									<script type="text/javascript">
+										function prodname2()
+										{
+										var answer = confirm ("You have added a mobile phone to cart. Click OK to continue .")
+										if (answer)
+										window.location = "cart2.php";
+										}
+									</script>
+										<img src="images/home/product3.jpg" alt="" />
+										<h2>Rs.2500</h2>
+										<p>Nokia Asha 200</p>
+										<a href="javascript:prodname2();" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+									</div>
+									<div class="product-overlay">
+										<div class="overlay-content">
+											<h2>Rs.2500</h2>
+											<p>Nokia Asha 200</p>
+											<a href="javascript:prodname2();" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+										</div>
+									</div>
+                  <img src="images/home/out_of_stock.png" class="new" alt="" />
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="product-image-wrapper">
+								<div class="single-products">
+									<div class="productinfo text-center">
+									<script type="text/javascript">
+										function prodname3()
+										{
+										var answer = confirm ("You have added a mobile phone to cart. Click OK to continue .")
+										if (answer)
+										window.location = "cart3.php";
+										}
+									</script>
+										<img src="images/home/product4.jpg" alt="" />
+										<h2>Rs.6500</h2>
+										<p>Firephone</p>
+										<a href="javascript:prodname3();" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+									</div>
+									<div class="product-overlay">
+										<div class="overlay-content">
+											<h2>Rs.6500</h2>
+											<p>Firephone</p>
+											<a href="javascript:prodname3();" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+										</div>
+									</div>
+									<img src="images/home/out_of_stock.png" class="new" alt="" />
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+						<script type="text/javascript">
+							function prodname4() 
+							{
+									var answer = confirm ("You have added a mobile phone to cart. Click OK to continue .")
+									if (answer)
+									window.location = "cart4.php";
+							}
+						</script>
+        							<div class="product-image-wrapper">
+								<div class="single-products">
+									<div class="productinfo text-center">
+										<img src="images/home/product5.jpg" alt="" />
+										<h2>Rs.35,000</h2>
+										<p>iPhone 5s</p>
+										<a href="javascript:prodname4();" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+									</div>
+									<div class="product-overlay">
+										<div class="overlay-content">
+											<h2>Rs.35,000</h2>
+											<p>iPhone 5s</p>
+											<a href="javascript:prodname4();" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+										</div>
+									</div>
+									<img src="images/home/sale.png" class="new" alt="" />
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="product-image-wrapper">
+								<div class="single-products">
+									<div class="productinfo text-center">
+									<script type="text/javascript">
+										function prodname5()
+										{
+										var answer = confirm ("You have added a mobile phone to cart. Click OK to continue .")
+										if (answer)
+										window.location = "cart5.php";
+										}
+									</script>
+										<img src="images/home/product6.jpg" alt="" />
+										<h2>Rs.4500</h2>
+										<p>Alcatel Aqua</p>
+										<a href="javascript:prodname5();" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+									</div>
+									<div class="product-overlay">
+										<div class="overlay-content">
+											<h2>Rs.4500</h2>
+											<p>Alcatel Aqua</p>
+											<a href="javascript:prodname5();" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+										</div>
+									</div>
+					<img src="images/home/out_of_stock.png" class="new" alt="" />
+
+								</div>
+							</div>
+						</div>
+					</div><!--features_items-->
+
+					<div class="recommended_items"><!--recommended_items-->
+						<h2 class="title text-center">Launching soon</h2>
+						<div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="item active">
+									
+									<div class="col-sm-3">
+										<div class="product-image-wrapper">
+											<div class="single-products">
+												<div class="productinfo text-center">
+													<img src="images/home/recommend1.jpg" alt="" />
+													<h2>Rs.2000</h2>
+													<p>Samsung Chat 3222</p>
+													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												</div>
+
+											</div>
+										</div>
+									</div>
+									
+									<div class="col-sm-3">
+										<div class="product-image-wrapper">
+											<div class="single-products">
+												<div class="productinfo text-center">
+													<img src="images/home/recommend2.jpg" alt="" />
+													<h2>Rs.18,000</h2>
+													<p>Moto Play</p>
+													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												</div>
+
+											</div>
+										</div>
+									</div>
+									
+									<div class="col-sm-3">
+										<div class="product-image-wrapper">
+											<div class="single-products">
+												<div class="productinfo text-center">
+													<img src="images/home/recommend3.jpg" alt="" />
+													<h2>Rs.28,000</h2>
+													<p>Sony Z3</p>
+													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												</div>
+
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-3">
+										<div class="product-image-wrapper">
+											<div class="single-products">
+												<div class="productinfo text-center">
+													<img src="images/home/recommend8.jpg" alt="" />
+													<h2>Rs.24,000</h2>
+													<p>Microsoft 920</p>
+													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="item">
+									<div class="col-sm-3">
+										<div class="product-image-wrapper">
+											<div class="single-products">
+												<div class="productinfo text-center">
+													<img src="images/home/recommend4.jpg" alt="" />
+													<h2>Rs.7500</h2>
+													<p>Nokia Lumia 520</p>
+													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												</div>
+
+											</div>
+										</div>
+									</div>
+									
+									<div class="col-sm-3">
+										<div class="product-image-wrapper">
+											<div class="single-products">
+												<div class="productinfo text-center">
+													<img src="images/home/recommend5.jpg" alt="" />
+													<h2>Rs.20,000</h2>
+													<p>Samsung Galaxy A8</p>
+													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												</div>
+
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-3">
+										<div class="product-image-wrapper">
+											<div class="single-products">
+												<div class="productinfo text-center">
+													<img src="images/home/recommend6.jpg" alt="" />
+													<h2>Rs.69,000</h2>
+													<p>Iphone 6s</p>
+													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												</div>
+											</div>
+										</div>
+									</div>
+										<div class="col-sm-3">
+										<div class="product-image-wrapper">
+											<div class="single-products">
+												<div class="productinfo text-center">
+													<img src="images/home/recommend7.jpg" alt="" />
+													<h2>Rs.14,000</h2>
+													<p>Moto G2</p>
+													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							 <a class="left recommended-item-control" href="#recommended-item-carousel" data-slide="prev">
+								<i class="fa fa-angle-left"></i>
+							  </a>
+							  <a class="right recommended-item-control" href="#recommended-item-carousel" data-slide="next">
+								<i class="fa fa-angle-right"></i>
+							  </a>
+						</div>
+					</div><!--/recommended_items-->
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer id="footer"><!--Footer-->
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-7">
+						<div class="companyinfo">
+							<h2><span>e</span>-CART</h2>
+							<p>E-CART is an E-commerce site in which we sell mobile phones at much cheaper price.</p>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="address">
+							<img src="images/home/map.png" alt="" />
+							<p>Shop 10,Lane 8,Koregaon Park,Pune,Maharashtra</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<p class="pull-left">Copyright © 2015 E-CART Inc. All rights reserved.</p>
+				</div>
+			</div>
+		</div>
+
+	</footer><!--/Footer-->
+
+
+
+    <script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.scrollUp.min.js"></script>
+	<script src="js/price-range.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
